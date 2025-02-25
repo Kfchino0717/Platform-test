@@ -13,7 +13,7 @@ public class Hint : MonoBehaviour
     {
         CanHint = false;
         Image = GetComponent<SpriteRenderer>();
-        Image.enabled = CanHint;//ªì©l¤£¥i¨£
+        Image.enabled = CanHint;//ÂªÃ¬Â©lÂ¤Â£Â¥iÂ¨Â£
     }
 
     // Update is called once per frame
