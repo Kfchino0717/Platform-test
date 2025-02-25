@@ -9,7 +9,7 @@ public class GoldenChest : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Hint = GetComponentInChildren<Hint>();//¥Ñ¦Û¤vªº¤lª«¥ó·j´M¥~³¡ª«¥ó//©ñ¦b¸s²Õ¸Ì!!
+        Hint = GetComponentInChildren<Hint>();//ç”±è‡ªå·±çš„å­ç‰©ä»¶æœå°‹å¤–éƒ¨ç‰©ä»¶//æ”¾åœ¨ç¾¤çµ„è£¡!!
     }
 
     // Update is called once per frame
@@ -24,11 +24,11 @@ public class GoldenChest : MonoBehaviour
         {
             if (Input.GetButtonDown("Fire3")) 
             {
-                GetComponent<Animator>().SetTrigger("¶}½c");
+                GetComponent<Animator>().SetTrigger("é–‹ç®±");
                 GetComponent<AudioSource>().Play();
                 Opened = true;
                 Hint.CanHint = false;
-                FindFirstObjectByType<Player>().¥i§ğÀ» = true;
+                FindFirstObjectByType<Player>().å¯æ”»æ“Š = true;
             }
             
         }
